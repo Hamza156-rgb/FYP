@@ -112,6 +112,7 @@ class AddBookPost extends Component {
         if (!bookName) {
             return this.setState({
                 ad_error: "Book Name is Required!",
+            
             });
 
         }
@@ -426,7 +427,7 @@ class AddBookPost extends Component {
 
                                     <Form.Group as={Row} className="mb-3" >
                                         <Form.Label column sm="2">
-                                            Phone
+                                            Phone Number
                                         </Form.Label>
                                         <Col sm="10">
                                             <Form.Control
